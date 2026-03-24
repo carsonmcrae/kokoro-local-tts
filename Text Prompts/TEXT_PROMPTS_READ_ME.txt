@@ -1,0 +1,1 @@
+These are sample that will be populated in the 'Browse Text Prompts' tab of the UI. You can import files for use.
