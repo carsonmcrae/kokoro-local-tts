@@ -29,33 +29,36 @@ Use the interface to select a voice, adjust speed, and generate speech from text
 cd C:\Users\YourName\Desktop
 ```
 
-    *(Note: You may want to create a dedicated folder for your projects first.)*
-
-To create a new folder and move into it in Command Prompt use:
-
-    `mkdir my-projects`
-
-    `cd my-projects`
+*(Note: You may want to create a dedicated folder for your projects first. You could use the command `mkdir tts-project`)*
 
 3. Navigate into the project folder:
 
-    `cd kokoro-local-tts`
+```
+cd kokoro-local-tts
+```
 
 4. Create and activate virtual environment:
 
-    `python -m venv venv`
+```
+python -m venv venv
+```
 
-    `venv\Scripts\activate`
+```
+venv\Scripts\activate
+```
 
 5. Install dependencies:
 
-    `pip install -r requirements.txt`
-
-    *(Note: This installs required Python packages such as `gradio` and `kokoro-tts`, along with their dependencies. On first run, the app will automatically download the Kokoro model files (~350MB), including `kokoro-v1.0.onnx` and `voices-v1.0.bin`.)*
+```
+pip install -r requirements.txt
+```
+(Note: This installs required Python packages such as `gradio` and `kokoro-tts`, along with their dependencies. On first run, the app will automatically download the Kokoro model files (~350MB), including `kokoro-v1.0.onnx` and `voices-v1.0.bin`.)*
 
 ## Run
 
-    `python kokoro_tts_ui.py`
+```
+python kokoro_tts_ui.py
+```
 
 On first run, required model files (~350MB) will be downloaded automatically.
 
@@ -69,11 +72,17 @@ On first run, required model files (~350MB) will be downloaded automatically.
 
 ### Start the app
 
-    `cd C:\tts`
+```
+cd C:\tts
+```
 
-    `venv\Scripts\activate`
+```
+venv\Scripts\activate
+```
 
-    `python kokoro_tts_ui.py`
+```
+python kokoro_tts_ui.py
+```
 
 ### Stop the app
 
