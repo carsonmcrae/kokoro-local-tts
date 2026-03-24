@@ -53,7 +53,7 @@ To create a new folder and move into it in Command Prompt use:
 
 ## Run
 
-    python kokoro_tts_ui.py
+    `python kokoro_tts_ui.py`
 
 On first run, required model files (~350MB) will be downloaded automatically.
 
@@ -67,9 +67,11 @@ On first run, required model files (~350MB) will be downloaded automatically.
 
 ### Start the app
 
-    cd C:\tts
-    venv\Scripts\activate
-    python kokoro_tts_ui.py
+    `cd C:\tts`
+
+    `venv\Scripts\activate`
+
+    `python kokoro_tts_ui.py`
 
 ### Stop the app
 
