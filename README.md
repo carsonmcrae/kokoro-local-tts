@@ -6,6 +6,10 @@ A local text-to-speech tool using Kokoro with a simple web interface.
 
 ![App Screenshot](tts_screenshot.png)
 
+## Demo
+
+https://github.com/user-attachments/assets/c17bf75f-4ffe-4e35-a5b1-59877f452851
+
 ## Features
 
 - 50+ voice options
@@ -15,7 +19,7 @@ A local text-to-speech tool using Kokoro with a simple web interface.
 - Upload or browse text files
 - Automatic model download on first run
 
-## Demo
+## Accessing the UI
 
 Run the app locally and open:
 
