@@ -28,6 +28,7 @@ Use the interface to select a voice, adjust speed, and generate speech from text
 2. Create and activate virtual environment:
 
     `python -m venv venv`
+
     `venv\Scripts\activate`
 
 3. Install dependencies:
