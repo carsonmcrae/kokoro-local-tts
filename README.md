@@ -23,13 +23,15 @@ Use the interface to select a voice, adjust speed, and generate speech from text
 
 1. Open Command Prompt
 
-2. (Optional) Navigate to where you want the project saved, for example:
+2. Create a folder where you want the project saved, for example:
 
 ```
-cd C:\Users\YourName\Desktop
+cd "%USERPROFILE%\OneDrive\Desktop"
 ```
 
-*(Note: You may want to create a dedicated folder for your projects first. You could use the command `mkdir tts-project`)*
+```
+mkdir kokoro-local-tts
+```
 
 3. Navigate into the project folder:
 
