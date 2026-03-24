@@ -109,3 +109,53 @@ python kokoro_tts_ui.py
 
 - Voice previews are cached after first generation for faster playback
 - Model files are not included in the repo and will download automatically
+
+## About This Project
+
+This project is a local text-to-speech (TTS) web application built on top of the Kokoro TTS engine. It allows users to convert written text into spoken audio using a variety of synthetic voices, all running entirely on their own machine.
+
+The primary goal of this project is to provide a simple, user-friendly interface for high-quality text-to-speech generation without requiring any external APIs or paid services. Everything runs locally, which means no internet dependency after setup and no data leaving your machine.
+
+## How It Works
+
+At a high level, the application combines three main components:
+
+1. **Frontend Interface (Gradio)**  
+   A lightweight web UI that runs locally in your browser. It allows users to:
+   - select voices  
+   - adjust speech speed  
+   - upload or browse text files  
+   - preview and generate audio  
+
+2. **TTS Engine (Kokoro)**  
+   The core text-to-speech system that converts text into audio. This is installed as a Python package and handles the actual synthesis logic.
+
+3. **Local Model Files**  
+   On first run, the app automatically downloads required model files:
+   - `kokoro-v1.0.onnx` (speech model)  
+   - `voices-v1.0.bin` (voice data)  
+
+   These files are used by the TTS engine to generate realistic speech and are stored locally.
+
+## Why This Exists
+
+Most modern text-to-speech tools rely on cloud-based APIs, which can:
+- require subscriptions or usage fees  
+- introduce latency  
+- raise privacy concerns  
+
+This project was built to explore a fully local alternative that:
+- is free to use  
+- works offline after setup  
+- gives users full control over their data  
+
+## Intended Use Cases
+
+- Converting written content into audio for review  
+- Testing and comparing different synthetic voices  
+- Generating narration for small projects  
+- Experimenting with local AI tools  
+
+---
+
+This project is designed to be simple, fast, and accessible while still exposing the core capabilities of a modern TTS system.
