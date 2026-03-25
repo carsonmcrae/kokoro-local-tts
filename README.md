@@ -73,7 +73,7 @@ venv\Scripts\activate
 ```
 python --version
 ```
-*(Note: You should be on Version 3.12.x)
+> *(Note: You should be on Version 3.12.x)*
 
 
 5. Install dependencies:
@@ -81,7 +81,7 @@ python --version
 ```
 pip install -r requirements.txt
 ```
-*(Note: This installs required Python packages such as `gradio` and `kokoro-tts`, along with their dependencies. On first run, the app will automatically download the Kokoro model files (~350MB), including `kokoro-v1.0.onnx` and `voices-v1.0.bin`.)*
+> *(Note: This installs required Python packages such as `gradio` and `kokoro-tts`, along with their dependencies. On first run, the app will automatically download the Kokoro model files (~350MB), including `kokoro-v1.0.onnx` and `voices-v1.0.bin`.)*
 
 ## Run
 
